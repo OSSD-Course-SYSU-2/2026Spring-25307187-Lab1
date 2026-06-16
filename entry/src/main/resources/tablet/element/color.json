@@ -1,0 +1,12 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#E8E8E8"
+    },
+    {
+      "name": "tablet_primary_color",
+      "value": "#0066CC"
+    }
+  ]
+}

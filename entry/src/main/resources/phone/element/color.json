@@ -1,0 +1,12 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#F0F0F0"
+    },
+    {
+      "name": "phone_primary_color",
+      "value": "#007DFF"
+    }
+  ]
+}

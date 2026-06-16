@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "平板端应用"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "平板端应用描述"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "平板应用"
+    }
+  ]
+}
