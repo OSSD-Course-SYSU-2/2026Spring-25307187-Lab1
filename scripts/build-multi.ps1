@@ -8,7 +8,7 @@ if (-not (Test-Path $backup)) {
     Copy-Item -Path (Join-Path $root 'build-profile.json5') -Destination $backup -ErrorAction SilentlyContinue
 }
 
-$profiles = @('phone','pad')
+$profiles = @('phone','pad','tablet','2in1')
 foreach ($p in $profiles) {
     $src = Join-Path $root "build-profile.$p.json5"
     if (-not (Test-Path $src)) {

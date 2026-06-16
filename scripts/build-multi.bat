@@ -7,7 +7,7 @@ if not exist build-profile.backup.json5 (
   copy /Y build-profile.json5 build-profile.backup.json5 >nul
 )
 
-for %%p in (phone pad) do (
+for %%p in (phone pad tablet 2in1) do (
   if exist build-profile.%%p.json5 (
     copy /Y build-profile.%%p.json5 build-profile.json5 >nul
     echo Switched to profile: %%p
